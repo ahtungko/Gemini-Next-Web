@@ -1,4 +1,4 @@
-export const OWNER = "blacksev";
+export const OWNER = "ahtungko";
 export const REPO = "Gemini-Next-Web";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;

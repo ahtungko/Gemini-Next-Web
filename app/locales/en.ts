@@ -443,6 +443,7 @@ const en: LocaleType = {
     Import: "Import",
     Sync: "Sync",
     Config: "Config",
+    selectImage: "Select Image"
   },
   Exporter: {
     Description: {

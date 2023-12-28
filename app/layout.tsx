@@ -32,7 +32,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script src="https://alwingulla.com/88/tag.min.js" data-zone="29942" async data-cfasync="false"></script>
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>

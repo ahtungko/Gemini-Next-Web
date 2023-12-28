@@ -442,6 +442,7 @@ const cn = {
     Import: "导入",
     Sync: "同步",
     Config: "配置",
+    selectImage: "选择照片"
   },
   Exporter: {
     Description: {

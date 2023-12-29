@@ -378,7 +378,7 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  background-image: var(--cb);
   padding: 10px;
   font-size: 14px;
   user-select: text;

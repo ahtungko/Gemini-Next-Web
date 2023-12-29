@@ -7,7 +7,7 @@
   /* color */
   --white: white;
   --black: rgb(48, 48, 48);
-  --gray: rgb(250, 250, 250);
+  --gray: linear-gradient(to top,#fff1eb,#ace0f9);
   --primary: rgb(29, 147, 171);
   --second: rgb(231, 248, 255);
   --hover-color: #f3f3f3;
@@ -28,7 +28,7 @@
   /* color */
   --white: rgb(30, 30, 30);
   --black: rgb(187, 187, 187);
-  --gray: rgb(21, 21, 21);
+  --gray: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
   --primary: rgb(29, 147, 171);
   --second: rgb(27 38 42);
   --hover-color: #323232;
@@ -94,7 +94,7 @@ html {
 }
 
 body {
-  background-color: var(--gray);
+  background-image: var(--gray);
   color: var(--black);
   margin: 0;
   padding: 0;

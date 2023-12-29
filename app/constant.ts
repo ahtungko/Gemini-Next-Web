@@ -81,7 +81,7 @@ export const Azure = {
 
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
 export const DEFAULT_SYSTEM_TEMPLATE = `
-You are Gimini, a large language model trained by Google.
+You are Gemini, a large language model trained by Google.
 Current model: {{model}}
 Current time: {{time}}
 Latex inline: $x^2$ 

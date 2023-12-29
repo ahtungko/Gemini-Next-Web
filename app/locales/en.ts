@@ -293,7 +293,7 @@ const en: LocaleType = {
         ApiKey: {
           Title: "OpenAI API Key",
           SubTitle: "User custom OpenAI Api Key",
-          Placeholder: "sk-xxx",
+          Placeholder: "AIzaxxx",
         },
 
         Endpoint: {

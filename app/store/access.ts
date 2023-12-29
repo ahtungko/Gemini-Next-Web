@@ -66,7 +66,7 @@ export const useAccessStore = createPersistStore(
          !this.enabledAccessControl() ||
          (this.enabledAccessControl() && ensure(get(), ["accessCode"]))
        );
-      return true;
+     // return true;
     },
     fetch() {
       if (fetchState > 0 || getClientConfig()?.buildMode === "export") return;

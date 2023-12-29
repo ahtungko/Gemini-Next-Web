@@ -30,7 +30,7 @@ const DEFAULT_ACCESS_STATE = {
   azureApiVersion: "2023-08-01-preview",
 
   // server config
-  needCode: false,
+  needCode: true,
   hideUserApiKey: false,
   hideBalanceQuery: false,
   disableGPT4: false,
@@ -57,15 +57,15 @@ export const useAccessStore = createPersistStore(
     },
 
     isAuthorized() {
-      // this.fetch();
+       this.fetch();
 
-      // // has token or has code or disabled access control
-      // return (
-      //   this.isValidOpenAI() ||
-      //   this.isValidAzure() ||
-      //   !this.enabledAccessControl() ||
-      //   (this.enabledAccessControl() && ensure(get(), ["accessCode"]))
-      // );
+       // has token or has code or disabled access control
+       return (
+         this.isValidOpenAI() ||
+         this.isValidAzure() ||
+         !this.enabledAccessControl() ||
+         (this.enabledAccessControl() && ensure(get(), ["accessCode"]))
+       );
       return true;
     },
     fetch() {

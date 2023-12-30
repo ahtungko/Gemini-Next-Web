@@ -9,8 +9,8 @@ export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
 export const DEFAULT_CORS_HOST = "https://fxcku.link";
-export const DEFAULT_API_HOST = `https://api.gemini-chat.pro`;
-export const OPENAI_BASE_URL = "https://api.gemini-chat.pro";
+export const DEFAULT_API_HOST = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:streamGenerateContent`;
+export const OPENAI_BASE_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:streamGenerateContent";
 
 export enum Path {
   Home = "/",
